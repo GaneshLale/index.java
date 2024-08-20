@@ -1,0 +1,25 @@
+pipeline {
+agent any
+stages {
+stage('Build') {
+steps {
+echo 'Building...'
+// Build steps go here
+}
+}
+stage('Test') {
+steps {
+echo 'Testing...'
+// Test steps go here
+}
+}
+stage('Deploy') {
+steps {
+echo 'Deploying...'
+// Deploy steps go here
+}
+}
+
+Compiled By: Prof. Sujata Oak
+}
+}
